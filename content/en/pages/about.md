@@ -4,8 +4,23 @@ description: 'Hugo, the world''s fastest framework for building websites'
 author: aagustinconti
 ---
 
-Hi, I’m Agustin. I work in cloud engineering and enjoy making complex systems run smoothly.
-I like learning new tools, solving tricky problems, and finding smart ways to automate things.
+# About Me
 
-When I’m not working, you’ll usually find me training at the gym, planning future projects, or diving into something new to learn.
-Curiosity drives me, and I try to keep a balance between building skills and enjoying life.
+I’m Agustin, a Cloud Engineer …
+
+<iframe src="/files/Agustin_Aguilera_Conti_Cloud_Engineer_CV_2025.pdf"
+        width="100%"
+        height="600px"
+        style="border:none;">
+</iframe>
+
+<a href="/files/Agustin_Aguilera_Conti_Cloud_Engineer_CV_2025.pdf" download style="
+  display:inline-block;
+  margin-top:15px;
+  padding:10px 20px;
+  background:#007acc;
+  color:#fff;
+  border-radius:6px;
+  text-decoration:none;">
+  📄 Download CV
+</a>
