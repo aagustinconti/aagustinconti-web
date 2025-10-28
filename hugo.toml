@@ -1,0 +1,20 @@
+baseURL = 'https://aagustinconti.com.ar/'
+languageCode = 'en-us'
+title = 'aagustinconti.com.ar'
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/aagustinconti"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://linkedin.com/in/aagustinconti"
+
+[params]
+goToTop = true
+defaultTheme = "dark"
+description = "Portfolio"
+
+
+[markup.goldmark.renderer]
+unsafe = true
