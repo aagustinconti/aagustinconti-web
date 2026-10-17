@@ -36,7 +36,7 @@ a:hover { text-decoration: underline; }
   font-family: var(--mono);
   font-size: .95rem;
 }
-.topbar nav { display: flex; gap: 1.25rem; }
+.topbar nav { display: flex; flex-wrap: wrap; gap: .25rem 1.25rem; }
 .topbar nav a { padding: .35rem 0; color: var(--dim); }
 .topbar nav a:hover { color: var(--accent); text-decoration: none; }
 .brand { color: var(--accent); font-weight: 600; }
