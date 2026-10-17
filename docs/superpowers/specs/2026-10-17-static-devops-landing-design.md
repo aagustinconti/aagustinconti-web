@@ -26,4 +26,4 @@ Replace the Hugo workflow with a GitHub Pages workflow that uploads the reposito
 - Existing unrelated working-tree changes, including the dirty theme submodule, remain untouched.
 
 ## Non-goals
-No blog migration, About page, JavaScript behavior, CSS framework, analytics setup changes, or new dependencies.
+No blog migration, About page, JavaScript behavior, CSS framework, analytics, or new dependencies. The existing Google Analytics tracking is intentionally removed because this static page has no JavaScript.
