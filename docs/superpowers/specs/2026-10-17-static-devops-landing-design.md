@@ -23,6 +23,7 @@ Replace the Hugo workflow with a GitHub Pages workflow that uploads the reposito
 - CV button returns the existing PDF and downloads it.
 - GitHub and LinkedIn links point to the existing accounts.
 - GitHub Actions deploys the static output without Hugo.
+- Deployed HTML loads no JavaScript or analytics.
 - Existing unrelated working-tree changes, including the dirty theme submodule, remain untouched.
 
 ## Non-goals
