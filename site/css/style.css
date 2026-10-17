@@ -22,19 +22,22 @@ body {
 
 a { color: var(--accent); text-decoration: none; }
 a:hover { text-decoration: underline; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
 
 .topbar, main, footer { width: min(100% - 2.5rem, 62rem); margin-inline: auto; }
 
 .topbar {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  gap: .5rem 1.5rem;
   padding: 1.25rem 0;
   font-family: var(--mono);
   font-size: .95rem;
 }
 .topbar nav { display: flex; gap: 1.25rem; }
-.topbar nav a { color: var(--dim); }
+.topbar nav a { padding: .35rem 0; color: var(--dim); }
 .topbar nav a:hover { color: var(--accent); text-decoration: none; }
 .brand { color: var(--accent); font-weight: 600; }
 
@@ -83,7 +86,7 @@ h1 { margin: 0 0 1rem; font-size: clamp(2.1rem, 5vw, 3.2rem); line-height: 1.1; 
 }
 @keyframes blink { 50% { opacity: 0; } }
 
-section { padding: 2rem 0; }
+section { padding: 2rem 0; scroll-margin-top: 1rem; }
 h2 { margin: 0 0 1.25rem; font: 600 1.3rem var(--mono); }
 
 .card {
@@ -112,7 +115,13 @@ footer { padding: 2rem 0 3rem; border-top: 1px solid var(--line); color: var(--d
 footer p { margin: 0; }
 
 @media (max-width: 760px) {
-  .hero { grid-template-columns: 1fr; padding-top: 2rem; }
+  .hero { grid-template-columns: 1fr; gap: 2rem; padding: 1rem 0 1.5rem; }
+  .lead { font-size: 1.05rem; }
+  .actions .btn { flex: 1 1 100%; padding: .9rem 1.2rem; text-align: center; }
+  .card { padding: 1rem 1.1rem; }
+  .card ul { padding-left: 1rem; }
+  .links a { display: inline-block; padding: .3rem 0; }
+  section { padding: 1.25rem 0; }
 }
 
 @media (prefers-reduced-motion: reduce) {
