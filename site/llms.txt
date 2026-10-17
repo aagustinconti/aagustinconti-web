@@ -1,0 +1,12 @@
+# Agustín Aguilera Conti
+
+> Cloud Engineer (AWS, Linux, Kubernetes, DevOps, SRE, IaC) based in Río Cuarto, Córdoba, Argentina. Works remotely at Avature S.R.L. in the AI Orchestrator Team (Mar 2026 – present); previously Cloud Operations Team (Mar 2024 – Mar 2026). Telecommunications Engineer (Universidad Nacional de Río Cuarto).
+
+## Pages
+- [Home](https://aagustinconti.com.ar/): overview, experience highlights, stack, contact
+- [CV](https://aagustinconti.com.ar/cv.html): full CV in plain HTML
+
+## Links
+- [GitHub](https://github.com/aagustinconti)
+- [LinkedIn](https://linkedin.com/in/aagustinconti)
+- Email: mail@aagustinconti.com.ar
